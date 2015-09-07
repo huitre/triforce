@@ -65,7 +65,7 @@ describe('Matrice', function () {
 										[1, 1, 1]
 									);
 		
-		matrice.sub(matr1ce);
+		matrice.mul(matr1ce);
 
 		expect(matrice.data[0][0]).toBe(1);
 		expect(matrice.data[1][1]).toBe(1);
@@ -86,7 +86,7 @@ describe('Matrice', function () {
 										[1, 1, 1]
 									);
 		
-		matrice.mul(matr1ce);
+		matrice.sub(matr1ce);
 
 		expect(matrice.data[0][0]).toBe(1);
 		expect(matrice.data[1][1]).toBe(1);
